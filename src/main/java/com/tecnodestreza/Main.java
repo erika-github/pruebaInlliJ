@@ -1,7 +1,7 @@
 package com.tecnodestreza;
 
 import java.util.*;
-import java.util.stream.Collectors;
+
 import java.util.stream.IntStream;
 
 public class Main {
@@ -61,10 +61,7 @@ public class Main {
 
         System.out.println("For Each con indice y donde se puede acceder a los elementos de la lista");
 
-        IntStream.range(0, nuevaLista.size()).forEach(i -> {
-                    System.out.println("indice:" + i + " fruta: " + nuevaLista.get(i));
-                }
-        );
+        IntStream.range(0, nuevaLista.size()).forEach(i -> System.out.println("indice:" + i + " fruta: " + nuevaLista.get(i)));
 
 ///Agrego este comentario al final para probar el push a la rama.
 
