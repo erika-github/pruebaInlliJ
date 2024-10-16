@@ -68,7 +68,7 @@ public class Main {
 
 ///Agrego este comentario al final para probar el push a la rama.
 
-        // Ahora quiero comparar los cambios
+        // Ahora quiero comparar los cambios.
     }
 }
 
